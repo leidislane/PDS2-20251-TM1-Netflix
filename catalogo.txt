@@ -1,0 +1,7 @@
+filme;Toy Story;Brinquedos ganham vida quando humanos não estão por perto.;Animação;1995;Livre;https://trailer.toystory.com;1;81
+filme;Matrix;Um programador descobre a verdade sobre sua realidade.;Ficção Científica;1999;16 anos;https://trailer.matrix.com;0;136
+serie;Friends;Seis amigos vivendo em Nova York.;Comédia;1994;12 anos;https://trailer.friends.com;0;10;236
+serie;Peppa Pig;A porquinha Peppa vive aventuras com sua família.;Infantil;2004;Livre;https://trailer.peppapig.com;1;6;52
+filme;Moana;Uma jovem parte em uma jornada pelo oceano.;Animação;2016;Livre;https://trailer.moana.com;1;107
+serie;Breaking Bad;Professor de química vira fabricante de drogas.;Drama;2008;18 anos;https://trailer.breakingbad.com;0;5;62
+filme;Encanto;Família mágica enfrenta desafios internos.;Animação;2021;Livre;https://trailer.encanto.com;1;99
