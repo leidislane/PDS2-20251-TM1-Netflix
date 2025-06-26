@@ -4,10 +4,10 @@ Projeto desenvolvido como trabalho prático final da disciplina **PDS2 - Program
 
 #**Integrantes**
 
-Leidislane Nunes Ribeiro
-Kayky Irã da Silva Costa Martins 
-Yasmin Carvalho Viana
-Thais Aparecida Barbosa 
+- Leidislane Nunes Ribeiro
+- Kayky Irã da Silva Costa Martins 
+- Yasmin Carvalho Viana
+- Thais Aparecida Barbosa 
 
 ## 📽️ Descrição do Projeto
 
