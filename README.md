@@ -69,7 +69,7 @@ netflix_clonefinal/
 - Documentação gerada estará na pasta docs/html/index.html.
 
 
-## Testes
+## Teste
 
 - Utilizamos o framework Doctest para testes unitários.
 
