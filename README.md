@@ -27,7 +27,7 @@ O projeto foi construído aplicando os princípios de orientação a objetos (en
 ---
 
 ## 🛠️ Estrutura do Projeto
-netflix_clone/
+netflix_clonefinal/
 │
 ├── 📄 Makefile                # Arquivo de automação da compilação
 ├── 📄 Doxyfile                # Arquivo de configuração para o Doxygen
@@ -42,11 +42,52 @@ netflix_clone/
 │   └── programa.exe
 │
 ├── 📁 docs/                   # Documentação gerada automaticamente
-│   └── html/                 # Documentação em HTML (Doxygen)
+│   └── html/                   # Documentação em HTML (Doxygen)
 │       ├── annotated.html
 │       ├── class_catalogo.html
 │       ├── class_conteudo.html
 │       ├── class_controle_reproducao.html
-│       └── 
+│       └── ... (outros arquivos HTML, JS, imagens etc.)
+│   └── latex/
 │
-└── 📁 -p/                     # Provavelmente criado por engano (erro no Makefile)
+│── 📁 include/               # Contém arquivos .hpp
+│
+│── 📁 obj/                   # Contém arquivos gcda, gcno e .o
+│
+│── 📁 src/                   # Contém arquivos .cpp
+│
+│── 📁 testes/                # Testes de unidade
+│
+└── 📁 -p/                
+
+---
+
+## 📄 Documentação com Doxygen
+
+- A documentação do código foi gerada com Doxygen e pode ser consultada localmente após rodar: doxygen Doxyfile
+
+- Documentação gerada estará na pasta docs/html/index.html.
+
+
+## Testes
+
+- Utilizamos o framework Doctest para testes unitários.
+
+- Cobertura de testes foi verificada com gcovr, com mais 30% de cobertura.
+
+- Existem testes para as principais classes do sistema (Usuario, Perfil, Filme, Serie, Catalogo, ControleReproducao, etc).
+
+---
+
+## 🧩 Dificuldades Encontradas
+
+- Estruturar um sistema completo com persistência e interface CLI de forma coesa e reutilizável.
+
+- Garantir cobertura de testes adequada e organização dos testes com Doctest.
+
+- Simular tempo de reprodução para série e filmes.
+
+- Integração de diferentes componentes respeitando o acoplamento e coesão.
+  
+- Mexer no doxigen para realizar a documentação.
+
